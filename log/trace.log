@@ -1,0 +1,23 @@
+2022-12-23 19:21:00.368 INFO  c.example.wiki_project.WikiProjectApplicationTests:55   [32m                  [0;39m Starting WikiProjectApplicationTests using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 9792 (started by lyr in D:\javaSoftware\wiki_project)
+2022-12-23 19:21:00.369 INFO  c.example.wiki_project.WikiProjectApplicationTests:635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-12-23 19:21:01.523 INFO  c.example.wiki_project.WikiProjectApplicationTests:61   [32m                  [0;39m Started WikiProjectApplicationTests in 1.454 seconds (JVM running for 2.315)
+2022-12-23 19:21:16.276 INFO  c.example.wiki_project.WikiProjectApplicationTests:55   [32m                  [0;39m Starting WikiProjectApplicationTests using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 19372 (started by lyr in D:\javaSoftware\wiki_project)
+2022-12-23 19:21:16.277 INFO  c.example.wiki_project.WikiProjectApplicationTests:635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-12-23 19:21:17.429 INFO  c.example.wiki_project.WikiProjectApplicationTests:61   [32m                  [0;39m Started WikiProjectApplicationTests in 1.441 seconds (JVM running for 2.33)
+2022-12-23 19:21:20.240 INFO  com.example.wiki_project.WikiProjectApplication   :55   [32m                  [0;39m Starting WikiProjectApplication using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 21100 (D:\javaSoftware\wiki_project\target\classes started by lyr in D:\javaSoftware\wiki_project)
+2022-12-23 19:21:20.242 INFO  com.example.wiki_project.WikiProjectApplication   :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-12-23 19:21:20.766 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-12-23 19:21:20.771 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-23 19:21:20.771 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-12-23 19:21:20.772 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-12-23 19:21:20.773 WARN  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2022-12-23 19:21:20.773 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-12-23 19:21:20.773 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2022-12-23 19:21:20.773 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-12-23 19:21:20.773 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-12-23 19:21:20.776 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-12-23 19:21:20.826 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-12-23 19:21:20.827 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 558 ms
+2022-12-23 19:21:21.017 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-12-23 19:21:21.029 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-23 19:21:21.036 INFO  com.example.wiki_project.WikiProjectApplication   :61   [32m                  [0;39m Started WikiProjectApplication in 1.098 seconds (JVM running for 2.015)
