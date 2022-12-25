@@ -1,5 +1,6 @@
 package com.example.wiki_project;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,6 +10,7 @@ import sun.rmi.runtime.Log;
 import java.util.logging.Logger;
 
 @SpringBootApplication
+@MapperScan("com.example.wiki_project.mapper")
 public class WikiProjectApplication {
 
     private static final Logger logger=Logger.getLogger(WikiProjectApplication.class.getName());
