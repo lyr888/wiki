@@ -1,144 +1,29 @@
-2022-12-25 10:46:41.201 INFO  c.example.wiki_project.WikiProjectApplicationTests:55   [32m                  [0;39m Starting WikiProjectApplicationTests using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 17588 (started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 10:46:41.204 INFO  c.example.wiki_project.WikiProjectApplicationTests:635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 10:46:43.814 INFO  c.example.wiki_project.WikiProjectApplicationTests:61   [32m                  [0;39m Started WikiProjectApplicationTests in 3.095 seconds (JVM running for 4.256)
-2022-12-25 10:46:49.120 INFO  com.example.wiki_project.WikiProjectApplication   :55   [32m                  [0;39m Starting WikiProjectApplication using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 9648 (D:\javaSoftware\wiki_project\target\classes started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 10:46:49.121 INFO  com.example.wiki_project.WikiProjectApplication   :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 10:46:49.190 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-12-25 10:46:49.191 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-12-25 10:46:50.137 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-12-25 10:46:50.144 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-25 10:46:50.145 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-12-25 10:46:50.145 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
-2022-12-25 10:46:50.147 WARN  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
-2022-12-25 10:46:50.147 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
-2022-12-25 10:46:50.148 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
-2022-12-25 10:46:50.148 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
-2022-12-25 10:46:50.148 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2022-12-25 10:46:50.152 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
-2022-12-25 10:46:50.213 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-12-25 10:46:50.214 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1021 ms
-2022-12-25 10:46:50.730 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-12-25 10:46:50.745 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-12-25 10:46:50.750 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
-2022-12-25 10:46:50.756 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
-2022-12-25 10:46:50.756 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2022-12-25 10:46:50.759 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
-2022-12-25 10:46:50.760 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
-2022-12-25 10:46:50.767 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-25 10:46:50.782 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2022-12-25 10:47:16.019 INFO  c.example.wiki_project.WikiProjectApplicationTests:55   [32m                  [0;39m Starting WikiProjectApplicationTests using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 14324 (started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 10:47:16.022 INFO  c.example.wiki_project.WikiProjectApplicationTests:635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 10:47:18.421 INFO  c.example.wiki_project.WikiProjectApplicationTests:61   [32m                  [0;39m Started WikiProjectApplicationTests in 2.848 seconds (JVM running for 3.919)
-2022-12-25 10:47:22.536 INFO  com.example.wiki_project.WikiProjectApplication   :55   [32m                  [0;39m Starting WikiProjectApplication using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 4888 (D:\javaSoftware\wiki_project\target\classes started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 10:47:22.537 INFO  com.example.wiki_project.WikiProjectApplication   :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 10:47:22.582 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-12-25 10:47:22.583 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-12-25 10:47:23.457 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
-2022-12-25 10:47:23.464 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
-2022-12-25 10:47:23.464 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-12-25 10:47:23.464 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
-2022-12-25 10:47:23.466 WARN  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
-2022-12-25 10:47:23.466 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
-2022-12-25 10:47:23.466 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
-2022-12-25 10:47:23.466 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
-2022-12-25 10:47:23.467 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2022-12-25 10:47:23.470 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
-2022-12-25 10:47:23.528 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-12-25 10:47:23.528 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 945 ms
-2022-12-25 10:47:23.996 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-12-25 10:47:24.009 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
-2022-12-25 10:47:24.022 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
-2022-12-25 10:47:24.031 INFO  com.example.wiki_project.WikiProjectApplication   :61   [32m                  [0;39m Started WikiProjectApplication in 1.914 seconds (JVM running for 3.429)
-2022-12-25 10:47:24.033 INFO  com.example.wiki_project.WikiProjectApplication   :20   [32m                  [0;39m 启动成功
-2022-12-25 10:47:43.445 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-25 10:47:43.445 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-12-25 10:47:43.447 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2022-12-25 10:47:43.476 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2022-12-25 10:47:43.735 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2022-12-25 11:05:30.530 INFO  c.example.wiki_project.WikiProjectApplicationTests:55   [32m                  [0;39m Starting WikiProjectApplicationTests using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 19892 (started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 11:05:30.533 INFO  c.example.wiki_project.WikiProjectApplicationTests:635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 11:05:33.561 INFO  c.example.wiki_project.WikiProjectApplicationTests:61   [32m                  [0;39m Started WikiProjectApplicationTests in 3.583 seconds (JVM running for 4.958)
-2022-12-25 11:05:38.375 INFO  com.example.wiki_project.WikiProjectApplication   :55   [32m                  [0;39m Starting WikiProjectApplication using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 20156 (D:\javaSoftware\wiki_project\target\classes started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 11:05:38.376 INFO  com.example.wiki_project.WikiProjectApplication   :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 11:05:38.424 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-12-25 11:05:38.424 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-12-25 11:05:39.281 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
-2022-12-25 11:05:39.289 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
-2022-12-25 11:05:39.290 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-12-25 11:05:39.290 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
-2022-12-25 11:05:39.292 WARN  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
-2022-12-25 11:05:39.292 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
-2022-12-25 11:05:39.293 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
-2022-12-25 11:05:39.293 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
-2022-12-25 11:05:39.293 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2022-12-25 11:05:39.295 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
-2022-12-25 11:05:39.361 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-12-25 11:05:39.361 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 936 ms
-2022-12-25 11:05:39.856 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-12-25 11:05:39.870 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
-2022-12-25 11:05:39.886 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
-2022-12-25 11:05:39.896 INFO  com.example.wiki_project.WikiProjectApplication   :61   [32m                  [0;39m Started WikiProjectApplication in 1.968 seconds (JVM running for 3.6)
-2022-12-25 11:05:39.899 INFO  com.example.wiki_project.WikiProjectApplication   :20   [32m                  [0;39m 启动成功
-2022-12-25 11:06:53.248 INFO  c.example.wiki_project.WikiProjectApplicationTests:55   [32m                  [0;39m Starting WikiProjectApplicationTests using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 6220 (started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 11:06:53.250 INFO  c.example.wiki_project.WikiProjectApplicationTests:635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 11:06:55.760 INFO  c.example.wiki_project.WikiProjectApplicationTests:61   [32m                  [0;39m Started WikiProjectApplicationTests in 2.952 seconds (JVM running for 4.027)
-2022-12-25 11:07:00.329 INFO  com.example.wiki_project.WikiProjectApplication   :55   [32m                  [0;39m Starting WikiProjectApplication using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 8788 (D:\javaSoftware\wiki_project\target\classes started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 11:07:00.331 INFO  com.example.wiki_project.WikiProjectApplication   :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 11:07:00.380 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-12-25 11:07:00.380 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-12-25 11:07:01.370 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
-2022-12-25 11:07:01.377 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
-2022-12-25 11:07:01.377 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-12-25 11:07:01.378 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
-2022-12-25 11:07:01.379 WARN  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
-2022-12-25 11:07:01.379 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
-2022-12-25 11:07:01.380 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
-2022-12-25 11:07:01.380 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
-2022-12-25 11:07:01.380 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2022-12-25 11:07:01.385 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
-2022-12-25 11:07:01.457 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-12-25 11:07:01.457 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1076 ms
-2022-12-25 11:07:01.987 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-12-25 11:07:02.003 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
-2022-12-25 11:07:02.017 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
-2022-12-25 11:07:02.028 INFO  com.example.wiki_project.WikiProjectApplication   :61   [32m                  [0;39m Started WikiProjectApplication in 2.159 seconds (JVM running for 3.893)
-2022-12-25 11:07:02.031 INFO  com.example.wiki_project.WikiProjectApplication   :20   [32m                  [0;39m 启动成功
-2022-12-25 11:07:43.194 INFO  c.example.wiki_project.WikiProjectApplicationTests:55   [32m                  [0;39m Starting WikiProjectApplicationTests using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 14888 (started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 11:07:43.196 INFO  c.example.wiki_project.WikiProjectApplicationTests:635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 11:07:45.780 INFO  c.example.wiki_project.WikiProjectApplicationTests:61   [32m                  [0;39m Started WikiProjectApplicationTests in 3.021 seconds (JVM running for 4.095)
-2022-12-25 11:07:50.554 INFO  com.example.wiki_project.WikiProjectApplication   :55   [32m                  [0;39m Starting WikiProjectApplication using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 13804 (D:\javaSoftware\wiki_project\target\classes started by lyr in D:\javaSoftware\wiki_project)
-2022-12-25 11:07:50.556 INFO  com.example.wiki_project.WikiProjectApplication   :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-12-25 11:07:50.609 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-12-25 11:07:50.609 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-12-25 11:07:51.501 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
-2022-12-25 11:07:51.507 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
-2022-12-25 11:07:51.508 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-12-25 11:07:51.508 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
-2022-12-25 11:07:51.510 WARN  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
-2022-12-25 11:07:51.510 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
-2022-12-25 11:07:51.510 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
-2022-12-25 11:07:51.511 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
-2022-12-25 11:07:51.511 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2022-12-25 11:07:51.514 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
-2022-12-25 11:07:51.573 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-12-25 11:07:51.573 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 963 ms
-2022-12-25 11:07:52.043 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-12-25 11:07:52.055 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
-2022-12-25 11:07:52.069 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
-2022-12-25 11:07:52.077 INFO  com.example.wiki_project.WikiProjectApplication   :61   [32m                  [0;39m Started WikiProjectApplication in 1.961 seconds (JVM running for 3.736)
-2022-12-25 11:07:52.080 INFO  com.example.wiki_project.WikiProjectApplication   :20   [32m                  [0;39m 启动成功
+2023-01-05 12:33:48.074 INFO  c.example.wiki_project.WikiProjectApplicationTests:55   [32m                  [0;39m Starting WikiProjectApplicationTests using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 9772 (started by lyr in D:\javaSoftware\wiki_project)
+2023-01-05 12:33:48.076 INFO  c.example.wiki_project.WikiProjectApplicationTests:635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-01-05 12:33:51.072 INFO  c.example.wiki_project.WikiProjectApplicationTests:61   [32m                  [0;39m Started WikiProjectApplicationTests in 3.45 seconds (JVM running for 4.665)
+2023-01-05 12:33:56.944 INFO  com.example.wiki_project.WikiProjectApplication   :55   [32m                  [0;39m Starting WikiProjectApplication using Java 1.8.0_40 on LAPTOP-4J897I97 with PID 21496 (D:\javaSoftware\wiki_project\target\classes started by lyr in D:\javaSoftware\wiki_project)
+2023-01-05 12:33:56.945 INFO  com.example.wiki_project.WikiProjectApplication   :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-01-05 12:33:57.000 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-05 12:33:57.001 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-05 12:33:58.295 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-01-05 12:33:58.302 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-01-05 12:33:58.303 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-01-05 12:33:58.303 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-05 12:33:58.305 WARN  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2023-01-05 12:33:58.306 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-01-05 12:33:58.306 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-01-05 12:33:58.306 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-01-05 12:33:58.307 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-05 12:33:58.311 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-01-05 12:33:58.393 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-01-05 12:33:58.393 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1391 ms
+2023-01-05 12:33:59.037 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-01-05 12:33:59.053 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-01-05 12:33:59.069 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-05 12:33:59.082 INFO  com.example.wiki_project.WikiProjectApplication   :61   [32m                  [0;39m Started WikiProjectApplication in 2.597 seconds (JVM running for 5.284)
+2023-01-05 12:33:59.086 INFO  com.example.wiki_project.WikiProjectApplication   :20   [32m                  [0;39m 启动成功
+2023-01-05 12:34:31.658 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-05 12:34:31.658 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-01-05 12:34:31.659 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-01-05 12:34:31.697 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-01-05 12:34:31.984 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
