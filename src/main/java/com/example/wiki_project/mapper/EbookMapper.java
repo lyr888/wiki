@@ -4,7 +4,9 @@ import com.example.wiki_project.domain.Ebook;
 import com.example.wiki_project.domain.EbookExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface EbookMapper {
     long countByExample(EbookExample example);
 
